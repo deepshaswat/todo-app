@@ -60,3 +60,5 @@ app.post("/completed", async (req, res) => {
     msg: "Todo marked as completed",
   });
 });
+
+app.listen(port);
